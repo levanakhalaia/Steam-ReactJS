@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "AccountName": "admin",
+      "Password": "admin",
+      "Email": "admin@gmail.com",
+      "Country": "",
+      "wishlist": [
+        {
+          "gamename": "Uncharted",
+          "gameurl": "https://cdn1.epicgames.com/offer/8b2d6cf2b45b41f1abe91bc5b7c1e8f9/EGS_UNCHARTEDLegacyofThievesCollection_NaughtyDogLLC_S1_2560x1440-1e077bb3b244c8ed172b5ad9256d5017",
+          "gameprice": 31
+        }
+      ],
+      "id": 1,
+      "games": [
+        {
+          "gamename": "Uncharted",
+          "gameurl": "https://cdn1.epicgames.com/offer/8b2d6cf2b45b41f1abe91bc5b7c1e8f9/EGS_UNCHARTEDLegacyofThievesCollection_NaughtyDogLLC_S1_2560x1440-1e077bb3b244c8ed172b5ad9256d5017"
+        }
+      ]
+    },
+    {
+      "AccountName": "tazo",
+      "Password": "1234567",
+      "Email": "tazo@gmail.com",
+      "Country": "Angola",
+      "wishlist": [
+        {
+          "gamename": "God of War Ragnarok",
+          "gameurl": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/capsule_616x353.jpg?t=1642526157",
+          "gameprice": 27
+        }
+      ],
+      "games": [],
+      "id": 2
+    },
+    {
+      "AccountName": "tom",
+      "Password": "tom",
+      "Email": "tom@gmail.com",
+      "Country": "Bahrain",
+      "wishlist": [
+        {
+          "gamename": "Apex Legends",
+          "gameurl": "https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/apex-featured-image-16x9.jpg.adapt.crop16x9.1023w.jpg",
+          "gameprice": 24
+        }
+      ],
+      "games": [],
+      "id": 3
+    }
+  ]
+}

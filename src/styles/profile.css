@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2A475E;
+}
+
+header {
+    background-color: #171a21;
+    height: 104px;
+}
+
+.header-container {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.navbar {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 25px;
+    margin-top: 3px;
+}
+
+.navimg img {
+    width: 177px;
+    height: 44px;
+}
+
+.navmenu ul {
+    display: flex;
+    list-style: none;
+}
+
+.navmenu ul a {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+}
+
+.navmenu ul a:hover {
+    color: white;
+}
+
+.installsteam  {
+    width: 110px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: #5c7e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.installsteam button {
+    width: 110px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: url('../img//steam_download.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 2px center;
+    padding-left: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+.gamediv {
+    width: 100%;
+    width: 60%;
+    margin: auto;
+    background-color: #202d39;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logout {
+    margin-left: 20px;
+    width: 100px;
+    height: 100%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #5c7e10;
+    cursor: pointer;
+    border-radius: 3px ;
+}
+
+.username1 {
+    font-size: 12px;
+    border: 2px solid #4c6b22;
+    margin-left: 20px;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+/*main */
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.left-main {
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.steamcard img {
+    width: 200px;
+    height: 115px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+.left-h3 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+ .menu ul li {
+    list-style: none;
+    color: #66c0f4;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.menu ul {
+    margin-top: 30px;
+}
+
+.gift {
+    font-size: 12px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.available {
+    margin-top: 0;
+    color: #66c0f4;
+    font-size: 12px;
+}
+
+.middle-main {
+    margin-top: 30px;
+    width: 80%;
+    float: right;
+}
+
+.middle-menu {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: #417a9b;
+    align-items: center;
+}
+.categories {
+    width: 70%;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.categories ul {
+    display: flex;
+}
+
+.categories ul li {
+    list-style: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.search  {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search input {
+    width: 155px;
+    height: 26px;
+    background: url("../img/search.png");
+    background-position: center right;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: #305d8a;
+    margin-right: 20px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+.search input::placeholder {
+    color: black;
+}
+
+.slider {
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+}
+
+
+.slider-desc {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.slider-pic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.slider-pic-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    width: 100%;
+    z-index: 11;
+    justify-content: space-between;
+}
+
+.slider-pic img {
+     width: 100%;
+     height: 100%;
+}
+
+.moveleft {
+    width: 70px;
+    height: 40px;
+    color: transparent;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: url('../img/move-left.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center center;
+    background-color: #b8b6b4;
+    cursor: pointer;
+}
+
+.moveright {
+    width: 70px;
+    height: 40px;
+    color: transparent;
+    border: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: url('../img/right-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: center center;
+    background-color: #b8b6b4;
+    cursor: pointer;
+}
+
+.steam-awards {
+    margin-top: 50px;
+}
+
+.steam-awards img {
+    width: 100%;
+}
+
+.games {
+    width: 100%;
+    background-color: #415f6e;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.games img {
+    width: 220px;
+    height: 120px;
+}
+
+.game-desc {
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.games-name {
+    font-size: 16px;
+}
+
+.desc {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.buy {
+    height: 30px;
+    width: 100px;
+    color: #FFFFFF;
+    background-color: #4c6b22;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.purchasefooter {
+    background-color: red;
+    height: 200px;
+}
